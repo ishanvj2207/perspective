@@ -357,7 +357,7 @@ this [view](#module_perspective..view)'s contructor.
 #### view.num\_columns() ⇒ <code>[ &#x27;Promise&#x27; ].&lt;number&gt;</code>
 The number of aggregated columns in this [view](view).  This is affected
 by the "column_pivots" configuration parameter supplied to this
-[view](view)'s contructor.
+[view](view)'s constructor.
 
 **Kind**: instance method of [<code>view</code>](#module_perspective..view)  
 **Returns**: <code>[ &#x27;Promise&#x27; ].&lt;number&gt;</code> - The number of aggregated columns.  
@@ -498,7 +498,7 @@ each.
 
 <strong>Note</strong> This constructor is not public - Tables are created
 by invoking the [table](#module_perspective..table) factory method, either
-on the perspective module object, or an a
+on the perspective module object, or on a
 [module:perspective~worker](module:perspective~worker) instance.
 
 
@@ -572,7 +572,7 @@ Unregister a previously registered delete callback with this
 The number of accumulated rows in this [table](#module_perspective..table).
 This is affected by the "index" configuration parameter supplied to this
 [view](#module_perspective..view)'s contructor - as rows will be
-overwritten when they share an idnex column.
+overwritten when they share an index column.
 
 **Kind**: instance method of [<code>table</code>](#module_perspective..table)  
 **Returns**: <code>[ &#x27;Promise&#x27; ].&lt;number&gt;</code> - The number of accumulated rows.  
