@@ -10,7 +10,7 @@ element.
 
 The documentation in this module defines the instance structure of a
 `<perspective-viewer>` DOM object instantiated typically, through HTML or any
-relevent DOM method e.g. `document.createElement("perspective-viewer")` or
+relevant DOM method e.g. `document.createElement("perspective-viewer")` or
 `document.getElementsByTagName("perspective-viewer")`.
 
 
